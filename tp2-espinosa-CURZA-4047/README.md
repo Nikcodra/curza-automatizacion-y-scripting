@@ -92,6 +92,26 @@ respaldo y el código de salida `9` ante una segunda ejecución.
 
 ## Capturas de ejecución
 
-Las capturas de esta sección deben provenir de una terminal real. Se incorporan
-al repositorio después de repetir las cinco pruebas con el guion de captura
-preparado junto al material del trabajo.
+Todas las imágenes siguientes corresponden a ejecuciones reales en Ubuntu.
+
+### Buscador de versiones PDF
+
+![Ejecución de pdf_version.sh](capturas/01_pdf_version.png)
+
+### Organizador automático
+
+![Ejecución y resultado de organizador.sh](capturas/02_organizador.png)
+
+### Monitor interactivo
+
+![Menú de monitorear.sh](capturas/03_monitor_menu.png)
+
+![Consulta del espacio en particiones](capturas/04_monitor_particiones.png)
+
+### Verificador de sitios web
+
+![Ejecución de chequear_paginas.sh](capturas/05_chequeo_web.png)
+
+### Respaldador
+
+![Ejecución de backup_manager.sh](capturas/06_backup.png)
