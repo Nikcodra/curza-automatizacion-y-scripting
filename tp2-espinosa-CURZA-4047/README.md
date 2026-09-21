@@ -1,7 +1,9 @@
 # Trabajo Práctico 2 - Scripts avanzados en Bash
 
-Alumno: Ulises Espinosa  
-Legajo: CURZA-4047  
+Alumno: Ulises Espinosa
+
+Legajo: CURZA-4047
+
 Asignatura: Automatización y Scripting
 
 ## Objetivo
