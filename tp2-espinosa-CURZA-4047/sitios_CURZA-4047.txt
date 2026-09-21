@@ -1,0 +1,5 @@
+https://example.com
+https://httpbin.org/redirect/1
+https://httpbin.org/status/404
+https://httpbin.org/status/500
+
