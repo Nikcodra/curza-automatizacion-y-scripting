@@ -1,0 +1,7 @@
+Chequeo HTTP - CURZA-4047
+Fecha: 2026-09-21 23:16:53
+
+URL: https://httpbin.org/status/200 - Código: 200 - OK
+URL: https://httpbin.org/redirect/1 - Código: 302 - REDIRECCIÓN
+URL: https://httpbin.org/status/404 - Código: 404 - ERROR HTTP
+URL: https://httpbin.org/status/500 - Código: 500 - ERROR HTTP
