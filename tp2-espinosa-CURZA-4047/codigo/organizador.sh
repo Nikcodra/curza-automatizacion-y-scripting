@@ -38,7 +38,9 @@ destino_libre() {
 
 cantidad=0
 
-while IFS= read -r -d '' archivo; do
+mapfile -d '' -t archivos < <(find "$directorio" -maxdepth 1 -type f -print0)
+
+for archivo in "${archivos[@]}"; do
     nombre="${archivo##*/}"
     nombre_minusculas="${nombre,,}"
 
@@ -71,7 +73,7 @@ while IFS= read -r -d '' archivo; do
     mv -- "$archivo" "$destino"
     echo "Movido: $nombre -> $categoria/"
     cantidad=$((cantidad + 1))
-done < <(find "$directorio" -maxdepth 1 -type f -print0)
+done
 
 echo "Organización finalizada. Archivos procesados: $cantidad"
 exit 0
